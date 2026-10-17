@@ -10,9 +10,7 @@ Agradecimientos especiales a **jere32game** por la idea inicial, el desarrollo c
 
 Así es como se ve la sección de comentarios integrada en la plataforma:
 
-![Sección de Comentarios en PenguinMod](Screenshot_1.png)
-
-*(Nota: Asegúrate de guardar tu imagen como `Screenshot_1.png` en la raíz de este repositorio para que se muestre correctamente).*
+![Sección de Comentarios en PenguinMod](https://yyf.mubilop.com/file/573f9fb3/Screenshot_1.png)
 
 ---
 
