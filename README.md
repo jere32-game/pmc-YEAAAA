@@ -32,7 +32,7 @@ Como esta extensión se encuentra en desarrollo y se instala de forma local, sig
    ```bash
    git clone https://github.com
    ```
-   *(O simplemente descarga el archivo ZIP desde [el release(https://github.com/jere32-game/pmc-YEAAAA/releases/tag/pmc)).*
+   *(O simplemente descarga el archivo ZIP desde [el release](https://github.com/jere32-game/pmc-YEAAAA/releases/tag/pmc)).*
 
 2. **Abre la gestión de extensiones en Chrome:**
    - Escribe `chrome://extensions/` en tu barra de direcciones y presiona Enter.
