@@ -1,66 +1,63 @@
 # 🐧 PenguinMod Comments Extension
 
-Una extensión de Google Chrome diseñada para habilitar y gestionar una sección de comentarios integrada directamente en los proyectos de **PenguinMod**. Permite a los usuarios interactuar, dejar opiniones y responder de forma dinámica.
+A Google Chrome extension designed to enable and manage a comments section integrated directly into **PenguinMod** projects. It allows users to interact, share feedback, and reply in a dynamic way.
 
-Agradecimientos especiales a **jere32game** por la idea inicial, el desarrollo clave y la moderación del sistema de comentarios.
-
----
-
-## 📸 Captura de Pantalla
-
-Así es como se ve la sección de comentarios integrada en la plataforma:
-
-![Sección de Comentarios en PenguinMod](https://yyf.mubilop.com/file/573f9fb3/Screenshot_1.png)
+Special thanks to **jere32game** for the initial concept, key development, and moderation of the comments system.
 
 ---
 
-## ✨ Características principales
+## 📸 Screenshot
 
-- **Comentarios en Tiempo Real:** Escribe y publica opiniones instantáneamente con un límite de hasta 500 caracteres.
-- **Respuestas e Hilos:** Responde directamente a otros usuarios para mantener conversaciones organizadas.
-- **Sistema de Moderación:** Soporte para comentarios fijados (`Pinned`), verificación de cuentas (`Verified`) y etiquetas de creador (`Creator`).
-- **Control de Gestión:** Opciones para eliminar (`Delete`) o desfijar (`Unpin`) comentarios si eres el dueño del proyecto.
-- **Contadores de Interacción:** Visualización de reacciones (corazones, aprobaciones y vistas del proyecto).
+Here is what the comments section looks like on the platform:
+
+![Comments Section in PenguinMod](https://yyf.mubilop.com/file/573f9fb3/Screenshot_1.png)
 
 ---
 
-## 🚀 Instalación (Modo Desarrollador)
+## ✨ Key Features
 
-Como esta extensión se encuentra en desarrollo y se instala de forma local, sigue estos pasos para añadirla a tu navegador Chrome:
+- **Real-Time Comments:** Write and post feedback instantly, with a limit of up to 500 characters.
+- **Replies and Threads:** Reply directly to other users to keep conversations organized.
+- **Moderation System:** Support for pinned comments (`Pinned`), account verification (`Verified`), and creator tags (`Creator`).
+- **Management Controls:** Options to delete (`Delete`) or unpin (`Unpin`) comments if you are the project owner.
+- **Interaction Counters:** Displays reactions (hearts, likes) and project views. ---
 
-1. **Clona o descarga este repositorio:**
-   ```bash
-   git clone https://github.com
-   ```
-   *(O simplemente descarga el archivo ZIP desde [el release](https://github.com/jere32-game/pmc-YEAAAA/releases/tag/pmc)).*
+## 🚀 Installation (Developer Mode)
 
-2. **Abre la gestión de extensiones en Chrome:**
-   - Escribe `chrome://extensions/` en tu barra de direcciones y presiona Enter.
+Since this extension is currently in development and is installed locally, follow these steps to add it to your Chrome browser:
 
-3. **Activa el Modo de Desarrollador:**
-   - Activa el interruptor que se encuentra en la esquina superior derecha de la pantalla.
+1. **Clone or download this repository:**
+```bash
+git clone https://github.com/jere32-game/pmc-YEAAAA
+```
+*(Or simply download the ZIP file from [the release page](https://github.com/jere32-game/pmc-YEAAAA/releases/tag/pmc)).*
 
-4. **Carga la extensión:**
-   - Haz clic en el botón **"Cargar descomprimida"** (Load unpacked) en la esquina superior izquierda.
-   - Selecciona la carpeta que contiene los archivos de la extensión (donde se encuentran el `manifest.json` y los scripts).
+2. **Open the Chrome extensions manager:**
+- Type `chrome://extensions/` into your address bar and press Enter.
 
-¡Listo! La extensión ya estará activa y funcionando al navegar en PenguinMod.
+3. **Enable Developer Mode:**
+- Toggle the switch located in the top-right corner of the screen.
+
+4. **Load the extension:**
+- Click the **"Load unpacked"** button in the top-left corner.
+- Select the folder containing the extension files (where the `manifest.json` and scripts are located).
+
+That’s it! The extension is now enabled and will be active while you browse PenguinMod.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
-- **JavaScript (ES6+)** - Lógica interna de la extensión e inyección de scripts en el DOM.
-- **HTML5 & CSS3** - Estructura y estilos de la interfaz de la caja de comentarios (modo oscuro).
-- **Chrome Extensions API v3** - Arquitectura base para la compatibilidad moderna con Google Chrome.
+- **JavaScript (ES6+)** – Internal extension logic and DOM script injection.
+- **HTML5 & CSS3** – Structure and styling for the comment box interface (dark mode).
+- **Chrome Extensions API v3** – Core architecture for modern compatibility with Google Chrome.
 
 ---
 
-## 🤝 Contribuciones
+## 🤝 Contributions
 
-¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes ideas para mejorar las funciones de comentario:
-1. Haz un **Fork** del proyecto.
-2. Crea una rama con tu nueva función (`git checkout -b feature/NuevaMejora`).
-3. Haz un **Commit** con tus cambios (`git commit -m 'Añadir nueva mejora'`).
-4. Sube la rama (`git push origin feature/NuevaMejora`).
-5. Abre un **Pull Request**.
+Contributions are welcome! If you encounter any bugs or have ideas to improve the commenting features:
+1. **Fork** the project.
+2. Create a branch for your new feature (`git checkout -b feature/new-improvement`).
+3. **Commit** your changes (`git commit -m 'Add new improvement'`). 4. Push the branch (`git push origin feature/NuevaMejora`).
+5. Open a **pull request**.
